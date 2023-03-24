@@ -1,5 +1,5 @@
-require_dependency 'stopwatch'
-require 'stopwatch/hooks'
+require File.dirname(__FILE__) + '/lib/stopwatch'
+require File.dirname(__FILE__) + '/lib/stopwatch/hooks'
 
 Redmine::Plugin.register :stopwatch do
   name 'Redmine Stopwatch Plugin'
